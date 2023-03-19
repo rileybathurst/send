@@ -2,7 +2,7 @@ import * as React from "react"
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
       <form name="contact" method="POST" data-netlify="true">
         <p>
           <label>Your Name: <input type="text" name="name" /></label>
